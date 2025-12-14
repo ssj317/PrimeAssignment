@@ -12,13 +12,13 @@ const connectDB = async () => {
       await User.create({
         name: "Admin",
         email: "admin@test.com",
-        password: "admin123", // ✅ PLAIN TEXT
+        password: "admin123",
         role: "admin"
       });
 
-      console.log("✅ Admin user seeded");
+      console.log(" Admin user seeded");
     } else {
-      console.log("ℹ️ Admin user already exists");
+      console.log(" Admin user already exists");
     }
 
   } catch (error) {
