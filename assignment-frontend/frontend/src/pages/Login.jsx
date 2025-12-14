@@ -45,7 +45,7 @@ const Login = () => {
       // save token
       login(token);
 
-      // 🔐 role-based handling (UI level)
+      // role-based handling 
       const role = getRoleFromToken(token);
 
       if (role === "admin") {
