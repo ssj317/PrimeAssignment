@@ -78,7 +78,7 @@ const Dashboard = () => {
         {/* Tasks */}
         {tasks.length === 0 ? (
           <Typography color="text.secondary">
-            No tasks yet. Add one above 👆
+            No tasks yet. Add one above 
           </Typography>
         ) : (
           <Stack spacing={2}>
